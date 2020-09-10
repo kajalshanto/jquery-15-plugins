@@ -1,1 +1,1 @@
-# jquery-15-plugins
+# jQuery 15 Plugins
