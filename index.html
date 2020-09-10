@@ -1,0 +1,924 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--!!! Required meta tags !!!-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Favicons -->
+    <link rel="shortcut icon" href="images/favicon/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="images/favicon/favicon.ico" type="image/x-icon">
+    <!-- Site Title -->
+    <title>jQuery Plugins</title>
+
+    <!-- Font Awesome 5 -->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <!-- Owl Carousel CSS  -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <!-- Slick CSS  -->
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <!-- Animate CSS  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <!-- Simple LightBox  -->
+    <link rel="stylesheet" href="css/simpleLightbox.min.css">
+    <!-- Scroll Top  -->
+    <link rel="stylesheet" href="css/material-scrolltop.css">
+    <!-- Mahnific Pop up  -->
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <!-- header start -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Jquery Plugins</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#animate">Animte css</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#counter__up">counter up</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#typed__js">typed js</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#wow">wow</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#magnific">magnific</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#lightbox">Lightbox</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#parallax">Parallax</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#isotop">Isotop</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#tabs">Tabs</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#masonary">Masonary</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#slicks">Slick</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#read__more">Read More</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#owl">Owl</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!--/. header end -->
+
+    <!-- main start -->
+    <main>
+        <section id="animate">
+            <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="banner" style="background-image: url('images/banner/1.jpg');"></div>
+                        <div class="carousel-caption">
+                            <h2 class="animate__animated animate__bounceInRight animate__delay-1s">Best in
+                                <span>Development</span></h2>
+                            <h3 class="animate__animated animate__bounceInLeft animate__delay-1s">Creative
+                                Development
+                                Agency</h3>
+                            <p class="animate__animated animate__bounceInUp animate__delay-2s"><a href="#"
+                                    class="btn btn-primary btn-md mt-4">Contact US</a></p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="banner" style="background-image: url('images/banner/2.jpg');"></div>
+                        <div class="carousel-caption">
+                            <h2 class="animate__animated animate__backInUp animate__delay-1s">Best in
+                                <span>Business</span></h2>
+                            <h3 class="animate__animated animate__backInDown animate__delay-2s">Business and
+                                Consulting</h3>
+                            <p class="animate__animated animate__fadeInUpBig animate__delay-2s"><a href="#"
+                                    class="btn btn-primary btn-md mt-4">Contact US</a></p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="banner" style="background-image: url('images/banner/3.jpg');"></div>
+                        <div class="carousel-caption">
+                            <h2 class="animate__animated animate__fadeInLeftBig animate__delay-1s">Best in
+                                <span>Planing</span></h2>
+                            <h3 class="animate__animated animate__fadeInRightBig animate__delay-1s">Stategy and
+                                Planing
+                            </h3>
+                            <p class="animate__animated animate__bounceInUp animate__delay-2s"><a href="#"
+                                    class="btn btn-primary btn-md mt-4">Contact Us</a></p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="banner" style="background-image: url('images/banner/4.jpg');"></div>
+                        <div class="carousel-caption">
+                            <h2 class="animate__animated animate__bounceInRight animate__delay-1s">Best in
+                                <span>Planing</span></h2>
+                            <h3 class="animate__animated animate__bounceInLeft animate__delay-1s">Stategy and
+                                Planing
+                            </h3>
+                            <p class="animate__animated animate__fadeInUpBig animate__delay-2s"><a href="#"
+                                    class="btn btn-primary btn-md mt-4">Contact Us</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Counter section  -->
+        <section id="counter__up">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center mb-5">
+                        <h2 class="section__top">Counter Up</h2>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <!-- single counter  -->
+                    <div class="col-md-3 text-center box__single">
+                        <div class="box__border">
+                            <h5>Total Income</h5>
+                            <p class="counter" style="font-size: 24px;">1,234,567.00</p>
+                        </div>
+                    </div>
+                    <!-- single counter  -->
+                    <div class="col-md-3 text-center box__single">
+                        <div class="box__border">
+                            <h5>Completed Projects</h5>
+                            <p class="counter" style="font-size: 24px;">3,025</p>
+                        </div>
+                    </div>
+                    <!-- single counter  -->
+                    <div class="col-md-3 text-center box__single">
+                        <div class="box__border">
+                            <h5>Cup of coffe</h5>
+                            <p class="counter" style="font-size: 24px;">20,875</p>
+                        </div>
+                    </div>
+                    <!-- single counter  -->
+                    <div class="col-md-3 text-center box__single">
+                        <div class="box__border">
+                            <h5>Sale products</h5>
+                            <p class="counter" style="font-size: 24px;">5,231</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--./ Counter section  -->
+
+        <!-- Type JS section  -->
+        <section id="typed__js">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center mb-5">
+                        <h2 class="section__top">Type JS</h2>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <!-- type area  -->
+                    <div class="col-12 text-center mb-5">
+                        <h2 class="typing">I'm a <span class="type"></span></h2>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--./ Type JS section  -->
+
+        <!-- WOW section  -->
+        <section id="wow">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center mb-5">
+                        <h2 class="section__top">WOW JS</h2>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <!-- single wow  -->
+                    <div class="col-md-4 text-center">
+                        <div class="wow animate__animated animate__backInLeft animate__delay-2s">
+                            <h3>I'm header</h3>
+                            <h5>Sub Header</h5>
+                            <p class="text-justify">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                Dolores
+                                ducimus modi mollitia
+                                quo, laboriosam facilis autem minima dolorum, sit itaque aperiam. Velit sequi labore
+                                sit
+                                quae ut ex vitae. Harum?</p>
+                        </div>
+                    </div>
+                    <!-- single wow  -->
+                    <div class="col-md-4 text-center">
+                        <div class="wow animate__animated animate__backInDown animate__delay-1s">
+                            <h3>I'm header</h3>
+                            <h5>Sub Header</h5>
+                            <p class="text-justify">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                Dolores
+                                ducimus modi mollitia
+                                quo, laboriosam facilis autem minima dolorum, sit itaque aperiam. Velit sequi labore
+                                sit
+                                quae ut ex vitae. Harum?</p>
+                        </div>
+                    </div>
+                    <!-- single wow  -->
+                    <div class="col-md-4 text-center">
+                        <div class="wow animate__animated animate__backInRight animate__delay-2s">
+                            <h3>I'm header</h3>
+                            <h5>Sub Header</h5>
+                            <p class="text-justify">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                Dolores
+                                ducimus modi mollitia
+                                quo, laboriosam facilis autem minima dolorum, sit itaque aperiam. Velit sequi labore
+                                sit
+                                quae ut ex vitae. Harum?</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!--./ WOWsection  -->
+
+        <!-- WOW section  -->
+        <section id="magnific">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center mb-5">
+                        <h2 class="section__top">Magnific</h2>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <!-- single images  -->
+                    <div class="col-md-4 mb-3">
+                        <a href="images/gallery/gallery_1.jpg" class="image">
+                            <img src="images/gallery/gallery_1.jpg" class="img-fluid">
+                        </a>
+                    </div>
+                    <!-- single images  -->
+                    <div class="col-md-4 mb-3">
+                        <a href="images/gallery/gallery_2.jpg" class="image">
+                            <img src="images/gallery/gallery_2.jpg" class="img-fluid">
+                        </a>
+                    </div>
+                    <!-- single images  -->
+                    <div class="col-md-4 mb-3">
+                        <a href="images/gallery/gallery_3.jpg" class="image">
+                            <img src="images/gallery/gallery_3.jpg" class="img-fluid">
+                        </a>
+                    </div>
+                    <!-- single images  -->
+                    <div class="col-md-4 mb-3">
+                        <a href="images/gallery/gallery_4.jpg" class="image">
+                            <img src="images/gallery/gallery_4.jpg" class="img-fluid">
+                        </a>
+                    </div>
+                    <!-- single images  -->
+                    <div class="col-md-4 mb-3">
+                        <a href="images/gallery/gallery_5.jpg" class="image">
+                            <img src="images/gallery/gallery_5.jpg" class="img-fluid">
+                        </a>
+                    </div>
+                    <!-- single images  -->
+                    <div class="col-md-4 mb-3">
+                        <a href="images/gallery/gallery_6.jpg" class="image">
+                            <img src="images/gallery/gallery_6.jpg" class="img-fluid">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--./ WOWsection  -->
+
+        <!-- LightBox section  -->
+        <section id="lightbox">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center mb-5">
+                        <h2 class="section__top">Simple LoghtBox</h2>
+                    </div>
+                </div>
+
+                <div class="row imageGallery1">
+                    <!-- single images  -->
+                    <div class="col-md-3 mb-3">
+                        <a href="images/gallery/gallery_7.jpg" title="Caption for gallery item 1">
+                            <img src="images/gallery/gallery_7.jpg" class="img-fluid" />
+                        </a>
+                    </div>
+                    <!-- single images  -->
+                    <div class="col-md-3 mb-3">
+                        <a href="images/gallery/gallery_8.jpg" title="Caption for gallery item 2">
+                            <img src="images/gallery/gallery_8.jpg" class="img-fluid" />
+                        </a>
+                    </div>
+                    <!-- single images  -->
+                    <div class="col-md-3 mb-3">
+                        <a href="images/gallery/gallery_1.jpg" title="Caption for gallery item 3">
+                            <img src="images/gallery/gallery_1.jpg" class="img-fluid" />
+                        </a>
+                    </div>
+                    <!-- single images  -->
+                    <div class="col-md-3 mb-3">
+                        <a href="images/gallery/gallery_2.jpg" title="Caption for gallery item 4">
+                            <img src="images/gallery/gallery_2.jpg" class="img-fluid" />
+                        </a>
+                    </div>
+                    <!-- single images  -->
+                    <div class="col-md-3 mb-3">
+                        <a href="images/gallery/gallery_3.jpg" title="Caption for gallery item 5">
+                            <img src="images/gallery/gallery_3.jpg" class="img-fluid" />
+                        </a>
+                    </div>
+                    <!-- single images  -->
+                    <div class="col-md-3 mb-3">
+                        <a href="images/gallery/gallery_4.jpg" title="Caption for gallery item 6">
+                            <img src="images/gallery/gallery_4.jpg" class="img-fluid" />
+                        </a>
+                    </div>
+                    <!-- single images  -->
+                    <div class="col-md-3 mb-3">
+                        <a href="images/gallery/gallery_5.jpg" title="Caption for gallery item 7">
+                            <img src="images/gallery/gallery_5.jpg" class="img-fluid" />
+                        </a>
+                    </div>
+                    <!-- single images  -->
+                    <div class="col-md-3 mb-3">
+                        <a href="images/gallery/gallery_6.jpg" title="Caption for gallery item 8">
+                            <img src="images/gallery/gallery_6.jpg" class="img-fluid" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--./ LightBox section -->
+
+        <!-- Parallax section  -->
+        <section id="parallax" style="background-image: url('images/banner/1.jpg');">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 d-flex justify-content-center align-items-center">
+                        <h2 class="section__top py-120">Parallax</h2>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--./ Parallax section  -->
+
+        <!-- Isotop section  -->
+        <section id="isotop">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center mb-5">
+                        <h2 class="section__top">Isotop</h2>
+                    </div>
+                </div>
+
+                <div class="row mb-4">
+                    <div class="col-sm-12">
+                        <div class="isotop_button d-flex justify-content-center">
+                            <a class="btn btn-sm btn-primary mr-2" data-filter="*">All</a>
+                            <a class="btn btn-sm btn-primary mr-2" data-filter=".design">Web Design</a>
+                            <a class="btn btn-sm btn-primary mr-2" data-filter=".develop">Web
+                                Development</a>
+                            <a class="btn btn-sm btn-primary mr-2" data-filter=".graphics">Graphics</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row grid">
+                    <!-- single isotop image -->
+                    <div class="col-md-4 grid_select mb-3 design">
+                        <div class="single-isotop">
+                            <a href="#">
+                                <div class="img_item">
+                                    <img src="images/gallery/gallery_1.jpg" alt="gallery image" class="img-fluid">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- single isotop image -->
+                    <div class="col-md-4 grid_select mb-3 develop">
+                        <div class="single-isotop">
+                            <a href="#">
+                                <div class="img_item">
+                                    <img src="images/gallery/gallery_2.jpg" alt="gallery image" class="img-fluid">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- single isotop image -->
+                    <div class="col-md-4 grid_select mb-3 design">
+                        <div class="single-isotop">
+                            <a href="#">
+                                <div class="img_item">
+                                    <img src="images/gallery/gallery_3.jpg" alt="gallery image" class="img-fluid">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- single isotop image -->
+                    <div class="col-md-4 grid_select mb-3 graphics design">
+                        <div class="single-isotop">
+                            <a href="#">
+                                <div class="img_item">
+                                    <img src="images/gallery/gallery_4.jpg" alt="gallery image" class="img-fluid">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- single isotop image -->
+                    <div class="col-md-4 grid_select mb-3 develop">
+                        <div class="single-isotop">
+                            <a href="#">
+                                <div class="img_item">
+                                    <img src="images/gallery/gallery_5.jpg" alt="gallery image" class="img-fluid">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- single isotop image -->
+                    <div class="col-md-4 grid_select mb-3 graphics develop">
+                        <div class="single-isotop">
+                            <a href="#">
+                                <div class="img_item">
+                                    <img src="images/gallery/gallery_6.jpg" alt="gallery image" class="img-fluid">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--./ Isotop section  -->
+
+        <!-- Tabs section  -->
+        <section id="tabs">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center mb-5">
+                        <h2 class="section__top">Tabs</h2>
+                    </div>
+                </div>
+
+                <div class="row mb-5">
+                    <div class="col-12 wow animate__animated animate__bounceInLeft animate__delay-1s">
+                        <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home"
+                                    role="tab" aria-controls="pills-home" aria-selected="true">Home</a>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile"
+                                    role="tab" aria-controls="pills-profile" aria-selected="false">Profile</a>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact"
+                                    role="tab" aria-controls="pills-contact" aria-selected="false">Contact</a>
+                            </li>
+                        </ul>
+                        <div class="tab-content" id="pills-tabContent">
+                            <div class="tab-pane fade show active" id="pills-home" role="tabpanel"
+                                aria-labelledby="pills-home-tab">Lorem ipsum dolor sit amet consectetur, adipisicing
+                                elit. Cum aspernatur corporis molestias nisi, tempora error eum corrupti, mollitia
+                                perspiciatis dolor eos omnis quae ea rem id illum numquam! Nihil rerum omnis
+                                corrupti illum, repellendus aspernatur delectus placeat? Hic sapiente ducimus nam
+                                suscipit sit at quae ipsa magnam? Dicta voluptas recusandae unde repellendus magni
+                                optio, quo non dolorem, possimus quaerat iusto aut modi accusantium laboriosam
+                                aspernatur distinctio, maxime repudiandae veritatis. Cupiditate?</div>
+                            <div class="tab-pane fade" id="pills-profile" role="tabpanel"
+                                aria-labelledby="pills-profile-tab">Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Nihil veritatis voluptatibus labore. Minus nulla hic et quo vel
+                                aut natus sapiente. Iusto corrupti voluptas, cum fugit itaque ad, dicta sed quis
+                                eligendi nesciunt consectetur voluptates, pariatur porro esse! Quod quidem obcaecati
+                                aut voluptatibus fugit doloremque facilis debitis quam harum earum suscipit
+                                inventore veniam architecto ullam delectus veritatis, aliquam quae ab nam! Minima
+                                molestiae repellendus enim accusantium beatae asperiores neque ad autem, harum minus
+                                provident illo nesciunt nisi et blanditiis cupiditate est laudantium deleniti nihil
+                                dicta voluptatibus consequuntur, suscipit vel sit? Aliquid eos voluptates natus qui!
+                            </div>
+                            <div class="tab-pane fade" id="pills-contact" role="tabpanel"
+                                aria-labelledby="pills-contact-tab">Lorem ipsum dolor sit, amet consectetur
+                                adipisicing elit. Quibusdam placeat obcaecati deserunt, aliquid soluta nisi sapiente
+                                delectus repudiandae adipisci rem! Perspiciatis, cum exercitationem? Sint, tempora,
+                                nihil autem totam aspernatur deleniti, animi nemo sed ullam velit dicta at officia
+                                nam. Consequuntur debitis voluptas corporis, nihil aperiam optio iure nemo
+                                laboriosam exercitationem? Molestias possimus nam nobis eligendi voluptas tempora
+                                cupiditate iste nulla voluptatibus, ad laborum quaerat perspiciatis odio quibusdam
+                                quod ratione, deleniti sit minima, iusto corporis aliquid pariatur nesciunt ipsam
+                                modi. Nam odio ipsa voluptatem iusto distinctio consectetur corrupti sit in
+                                consequatur quas dolor ratione earum ipsam fugiat ad, iste quos quae voluptates!
+                                Vitae beatae explicabo sunt! Eos odio fugiat quaerat nesciunt soluta, eveniet
+                                doloribus repellendus excepturi laudantium laboriosam quidem reiciendis natus.</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row mb-5">
+                    <div class="col-12 wow animate__animated animate__bounceInRight animate__delay-1s">
+                        <div class="row">
+                            <div class="col-3">
+                                <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist"
+                                    aria-orientation="vertical">
+                                    <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill"
+                                        href="#v-pills-home" role="tab" aria-controls="v-pills-home"
+                                        aria-selected="true">Home</a>
+                                    <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill"
+                                        href="#v-pills-profile" role="tab" aria-controls="v-pills-profile"
+                                        aria-selected="false">Profile</a>
+                                    <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill"
+                                        href="#v-pills-messages" role="tab" aria-controls="v-pills-messages"
+                                        aria-selected="false">Messages</a>
+                                    <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill"
+                                        href="#v-pills-settings" role="tab" aria-controls="v-pills-settings"
+                                        aria-selected="false">Settings</a>
+                                </div>
+                            </div>
+                            <div class="col-9">
+                                <div class="tab-content" id="v-pills-tabContent">
+                                    <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel"
+                                        aria-labelledby="v-pills-home-tab">
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet totam nostrum
+                                        minima voluptatem quia nisi ipsa accusamus, molestiae, minus, commodi
+                                        ducimus a atque! Minus quas, porro sed reprehenderit officia possimus illum
+                                        saepe earum voluptatibus, quo, unde doloribus repellat facilis assumenda
+                                        itaque quaerat enim eum harum repellendus nemo! Ullam molestiae vitae culpa
+                                        laboriosam atque ab suscipit alias, iure quod, mollitia rerum aliquam cum.
+                                        Ipsum, laborum, eius in a delectus illum esse at tempora vitae assumenda
+                                        officiis nobis impedit officia quisquam ea non corporis illo commodi
+                                        architecto quibusdam unde aperiam placeat ut? Dicta, fuga exercitationem
+                                        vero totam, iste asperiores maiores quas reprehenderit numquam voluptas
+                                        delectus temporibus. Ea alias soluta rerum adipisci vel? Nesciunt nemo, enim
+                                        quasi ut vitae veritatis odit consequatur mollitia reiciendis optio
+                                        molestiae distinctio fuga quibusdam facilis illo rem aut culpa vero
+                                        delectus. Accusamus, molestiae. Ullam, nulla praesentium culpa minus nam
+                                        suscipit optio blanditiis sint deserunt magni delectus dolorum odit iste
+                                        dolor qui commodi sit temporibus ut quam, a adipisci veniam corrupti? Ullam
+                                        nam, velit at minus maxime amet magnam.</div>
+                                    <div class="tab-pane fade" id="v-pills-profile" role="tabpanel"
+                                        aria-labelledby="v-pills-profile-tab">Lorem ipsum dolor sit amet consectetur
+                                        adipisicing elit. Ex cumque id laboriosam deleniti quidem harum, eaque
+                                        provident? Et velit minus nemo aspernatur quos saepe iste reiciendis minima?
+                                        Ad tempora alias doloremque blanditiis ea exercitationem voluptas obcaecati
+                                        maiores, minima, nam voluptatum praesentium accusantium dignissimos! Ab unde
+                                        laboriosam maiores molestiae accusantium voluptas blanditiis? Voluptatem
+                                        error perferendis illum, consequuntur consequatur fugit reiciendis provident
+                                        impedit. Est atque culpa sunt facere autem sit voluptatem, dolore itaque,
+                                        laborum ipsa sed? Ducimus, eaque. Iusto ab expedita assumenda similique
+                                        voluptas voluptatum nesciunt adipisci voluptates obcaecati, atque
+                                        doloremque. Eaque dicta, tempora enim, nemo est cupiditate expedita debitis
+                                        odio laudantium beatae quae vel iusto aut sit quo eligendi aliquid facilis
+                                        maiores quis ducimus quas consectetur iste nihil? Harum placeat iusto quasi
+                                        incidunt quod esse sint fugiat, in rem, blanditiis cum eum est nobis tempora
+                                        atque excepturi voluptates reiciendis qui deserunt magnam porro
+                                        perspiciatis. Debitis, molestias illo? Quos eius optio libero?
+                                    </div>
+                                    <div class="tab-pane fade" id="v-pills-messages" role="tabpanel"
+                                        aria-labelledby="v-pills-messages-tab">Lorem ipsum dolor sit, amet
+                                        consectetur adipisicing elit. Id blanditiis eveniet quasi voluptate
+                                        praesentium fuga obcaecati fugiat nihil maiores. Libero corporis dolore modi
+                                        molestias inventore tempore doloribus reprehenderit rem tenetur earum,
+                                        provident possimus ducimus. Nobis sint quis tenetur, laudantium inventore
+                                        officia quam amet quasi mollitia aperiam tempora necessitatibus cumque rerum
+                                        consequatur voluptas voluptate asperiores praesentium ullam pariatur eaque.
+                                        Cupiditate, consequatur. Dolorem perspiciatis perferendis obcaecati facere
+                                        dignissimos deserunt dolor libero rerum. Similique voluptatem sunt
+                                        blanditiis, libero a soluta quidem neque incidunt deserunt nostrum ad magni
+                                        aspernatur saepe qui quam deleniti sapiente debitis voluptas alias quod
+                                        laborum repellendus ullam? Totam quisquam cumque ex explicabo est! Cum,
+                                        assumenda, mollitia fuga impedit ratione facilis autem blanditiis laudantium
+                                        optio doloribus sint exercitationem architecto quis reiciendis tenetur nam
+                                        fugiat consequuntur dolore error qui molestiae aperiam at soluta. Eius
+                                        laboriosam autem consequuntur laudantium impedit, nesciunt temporibus earum
+                                        asperiores dicta quam officia eos corporis architecto repellendus voluptatum
+                                        eum quibusdam totam ipsum assumenda at.
+                                    </div>
+                                    <div class="tab-pane fade" id="v-pills-settings" role="tabpanel"
+                                        aria-labelledby="v-pills-settings-tab">Lorem, ipsum dolor sit amet
+                                        consectetur adipisicing elit. Aliquam dolore natus adipisci nulla
+                                        architecto, maiores laudantium blanditiis sunt eveniet esse officia ut
+                                        similique excepturi commodi expedita aut, minus placeat eligendi qui earum?
+                                        Nam facilis inventore officia similique deserunt vero officiis asperiores,
+                                        tempore quae excepturi laboriosam provident at beatae, sapiente velit vel
+                                        quaerat. Modi corporis deleniti similique molestias ducimus blanditiis
+                                        optio, laborum dolor atque ex. Minus aspernatur, reiciendis maiores optio
+                                        ipsa unde autem suscipit beatae animi labore ratione totam nulla. Voluptas,
+                                        corrupti, alias enim sunt dicta sapiente aperiam dolore voluptate, similique
+                                        iusto tempora maiores aspernatur corporis mollitia? Voluptatem molestias,
+                                        aliquid minus, eveniet distinctio illum similique voluptatibus sed molestiae
+                                        officia eius voluptas laboriosam? Magnam quae vero iure aperiam sint
+                                        distinctio nihil non ea placeat. Laboriosam voluptas quam optio ab
+                                        exercitationem delectus nobis amet, aut et tempora excepturi eius sint
+                                        doloribus eos blanditiis.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--./ Tabs section  -->
+
+        <!-- Masonary section  -->
+        <section id="masonary">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center mb-5">
+                        <h2 class="section__top">Masonary</h2>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-12">
+                        <div class="card-columns">
+                            <div class="card">
+                                <img src="images/gallery/gallery_2.jpg" class="card-img-top img-fluid" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title that wraps to a new line</h5>
+                                    <p class="card-text">This is a longer card with supporting text below as a
+                                        natural lead-in to.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <img src="images/gallery/gallery_2.jpg" class="card-img-top img-fluid" alt="...">
+                            </div>
+                            <div class="card bg-danger text-white text-left p-3">
+                                <blockquote class="blockquote mb-0">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere
+                                        erat.</p>
+                                    <footer class="blockquote-footer text-white">
+                                        <small>
+                                            Someone famous in <cite title="Source Title">Source Title</cite>
+                                        </small>
+                                    </footer>
+                                </blockquote>
+                            </div>
+                            <div class="card bg-success text-white text-center p-3">
+                                <blockquote class="blockquote mb-0">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere
+                                        erat.</p>
+                                    <footer class="blockquote-footer text-white">
+                                        <small>
+                                            Someone famous in <cite title="Source Title">Source Title</cite>
+                                        </small>
+                                    </footer>
+                                </blockquote>
+                            </div>
+                            <div class="card p-3">
+                                <blockquote class="blockquote mb-0 card-body">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat
+                                        a ante.</p>
+                                    <footer class="blockquote-footer">
+                                        <small class="text-muted">
+                                            Someone famous in <cite title="Source Title">Source Title</cite>
+                                        </small>
+                                    </footer>
+                                </blockquote>
+                            </div>
+                            <div class="card">
+                                <img src="images/gallery/gallery_7.jpg" class="card-img-top img-fluid" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">This card has supporting text below as a natural lead-in to
+                                        additional content.Lorem ipsum dolor sit amet,</p>
+                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small>
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="card">
+                                <img src="images/gallery/gallery_8.jpg" class="card-img-top img-fluid" alt="...">
+                            </div>
+
+                            <div class="card bg-info text-white p-3 text-right">
+                                <blockquote class="blockquote mb-0">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat
+                                        a ante.</p>
+                                    <footer class="blockquote-footer text-white">
+                                        <small>
+                                            Someone famous in <cite title="Source Title">Source Title</cite>
+                                        </small>
+                                    </footer>
+                                </blockquote>
+                            </div>
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">This is another card with title and supporting text below.
+                                        This card has some additional content to make it slightly taller
+                                        overall.This is another card with title and supporting text below.
+                                        This card has some additional content to make it slightly taller and
+                                        supporting text below.
+                                        This card has some additional content to make it slightly taller.This is
+                                        another card with title and supporting text below.
+                                    </p>
+                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--./ Masonary section  -->
+
+        <!-- Slicks section  -->
+        <section id="slicks">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center mb-5">
+                        <h2 class="section__top">Slick Slider</h2>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-12">
+                        <div class="autoplay">
+                            <div>
+                                <img src="images/gallery/gallery_1.jpg" alt="imsges" class="img-fluid">
+                            </div>
+                            <div>
+                                <img src="images/gallery/gallery_2.jpg" alt="imsges" class="img-fluid">
+                            </div>
+                            <div>
+                                <img src="images/gallery/gallery_3.jpg" alt="imsges" class="img-fluid">
+                            </div>
+                            <div>
+                                <img src="images/gallery/gallery_4.jpg" alt="imsges" class="img-fluid">
+                            </div>
+                            <div>
+                                <img src="images/gallery/gallery_5.jpg" alt="imsges" class="img-fluid">
+                            </div>
+                            <div>
+                                <img src="images/gallery/gallery_6.jpg" alt="imsges" class="img-fluid">
+                            </div>
+                            <div>
+                                <img src="images/gallery/gallery_7.jpg" alt="imsges" class="img-fluid">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--./ Slicks section  -->
+
+        <!-- Read More section  -->
+        <section id="read__more">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center mb-5">
+                        <h2 class="section__top">Read More</h2>
+                    </div>
+                </div>
+
+                <div class="row wow animate__animated animate__bounceInDown animate__delay-1s">
+                    <div class="col-12 text-center">
+                        <p class="text-justify readMe">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                            Voluptatibus, aspernatur? Quas
+                            placeat id autem cumque provident iure, officiis aperiam et fuga perferendis. Nobis
+                            debitis facere ipsa nostrum architecto esse porro magnam fugit officiis ipsam et <span
+                                id="dots">...</span><span id="more">reiciendis illo possimus hic quia, aliquid
+                                voluptate totam laborum dolor assumenda inventore! Libero praesentium nisi enim
+                                nesciunt accusamus consequuntur quia voluptatibus necessitatibus consectetur
+                                deserunt facilis reprehenderit, voluptatem ad quaerat aut rem mollitia eaque officia
+                                aliquid autem nam optio qui quas. Officia voluptates numquam aut fugit facilis
+                                tenetur expedita quisquam et, voluptas quia corrupti commodi nostrum esse dolore
+                                optio officiis delectus unde nemo recusandae alias quasi? Doloribus, beatae. Eaque
+                                unde culpa quam, illo iusto tempora delectus sed, ipsum explicabo libero facilis
+                                voluptate. Ut blanditiis nemo officiis?</span></p>
+
+                        <button onclick="myFunction()" class="btn btn-primary btn-md" id="myBtn">Read more</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--./ Read More section  -->
+
+        <!-- Owl section  -->
+        <section id="owl">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center mb-5">
+                        <h2 class="section__top">Owl</h2>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-12">
+                        <div class="owl-carousel owl-theme">
+                            <div class="item">
+                                <img src="images/gallery/gallery_1.jpg" alt="imsges" class="img-fluid">
+                            </div>
+                            <div class="item">
+                                <img src="images/gallery/gallery_2.jpg" alt="imsges" class="img-fluid">
+                            </div>
+                            <div class="item">
+                                <img src="images/gallery/gallery_3.jpg" alt="imsges" class="img-fluid">
+                            </div>
+                            <div class="item">
+                                <img src="images/gallery/gallery_4.jpg" alt="imsges" class="img-fluid">
+                            </div>
+                            <div class="item">
+                                <img src="images/gallery/gallery_5.jpg" alt="imsges" class="img-fluid">
+                            </div>
+                            <div class="item">
+                                <img src="images/gallery/gallery_6.jpg" alt="imsges" class="img-fluid">
+                            </div>
+                            <div class="item">
+                                <img src="images/gallery/gallery_7.jpg" alt="imsges" class="img-fluid">
+                            </div>
+                            <div class="item">
+                                <img src="images/gallery/gallery_8.jpg" alt="imsges" class="img-fluid">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--./ Owl section  -->
+
+    </main>
+    <!--/. main end -->
+
+    <!-- footer start -->
+    <footer id="footer">
+        <div class="container text-center">
+            <hr>
+            <p>Copyright &copy; <span id="year"></span> Shanto's Blackbox</p>
+        </div>
+        <!-- material-scrolltop button -->
+
+    </footer>
+    <!--/. footer end -->
+    <button class="material-scrolltop" type="button"></button>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-1.12.4.min.js"></script>
+
+    <script src="js/smooth-scrollbar.js"></script>
+    <script src="js/jquery.stickyNav.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/typed.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/simpleLightbox.min.js"></script>
+    </script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/parallaxie.js"></script>
+
+    <script src="js/material-scrolltop.js"></script>
+
+
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <!--!! Main JS !!-->
+    <script src="js/main.js"></script>
+    <!-- <script>
+        window.addEventListener("scroll", function () {
+            var navbar = document.querySelector("nav");
+            navbar.classList.toggle("sticky", window.scrollY > 0);
+        });
+    </script> -->
+</body>
+
+</html>
